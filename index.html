@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GoalStream - Free Football Streaming</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0e0e0e;
+      color: white;
+    }
+    header {
+      background-color: #006400;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #121212;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #00ffcc;
+    }
+    .container {
+      padding: 20px;
+    }
+    .match-box {
+      background: #1a1a1a;
+      margin-bottom: 25px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffcc33;
+    }
+    .match-box h2 {
+      margin-top: 0;
+      font-size: 22px;
+    }
+    .servers a {
+      display: inline-block;
+      background: #00ffcc;
+      color: black;
+      padding: 10px 15px;
+      margin: 5px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .servers a:hover {
+      background: #00ddaa;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GoalStream</h1>
+  <p>Watch Free Football From All Over the World</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Live Now</a>
+  <a href="#">Schedule</a>
+  <a href="#">Highlights</a>
+  <a href="#">Channels</a>
+</nav>
+
+<div class="container">
+  <div class="match-box">
+    <h2>LIVE: Manchester United vs Liverpool</h2>
+    <div class="servers">
+      <a href="https://server1.example.com" target="_blank">Server 1</a>
+      <a href="https://server2.example.com" target="_blank">Server 2</a>
+      <a href="https://server3.example.com" target="_blank">Backup Server</a>
+    </div>
+  </div>
+
+  <div class="match-box">
+    <h2>Upcoming: Brazil vs Argentina - 10 PM GMT</h2>
+    <div class="servers">
+      <a href="#">Link will be live 10 mins before match</a>
+    </div>
+  </div>
+
+  <div class="match-box">
+    <h2>Latest Highlight: Real Madrid vs PSG</h2>
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<footer>
+  <p>GoalStream © 2025 | Football for the People | Free. Always.</p>
+</footer>
+
+</body>
+</html>
